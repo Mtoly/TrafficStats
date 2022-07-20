@@ -1,0 +1,150 @@
+{
+    "details": [
+        {
+            "total": "30.00GB",
+            "judgeNum": 12,
+            "packageName": "5元30GB定向流量升级包",
+            "percentage": "0",
+            "prodOfferInstanceId": "312103394711",
+            "isSharedPackage": "1",
+            "used": "848KB",
+            "ofrLevel": "7100100850001200000",
+            "productOffCode": "2-3AOE2SGV",
+            "company": 3,
+            "name": "国内上网含30GB《可选包》（RG编号：3532704600，3532704500，3532704700，3532706700）",
+            "validEndTime": "2022年02月28日",
+            "validBeginTime": "2022年02月01日",
+            "surplus": "29.99GB"
+        },
+        {
+            "total": "15.00GB",
+            "judgeNum": 12,
+            "packageName": "爱看4G定向流量（15G）可选包",
+            "percentage": "0",
+            "prodOfferInstanceId": "2-25J7K0H0",
+            "isSharedPackage": "1",
+            "used": "0KB",
+            "ofrLevel": "7100100850002200000",
+            "productOffCode": "2-1K9ZAVDI",
+            "company": 3,
+            "name": "爱看4G包内专用国内上网含15GB",
+            "validEndTime": "2022年02月28日",
+            "validBeginTime": "2022年02月01日",
+            "surplus": "15.00GB"
+        },
+        {
+            "total": "6.00GB",
+            "judgeNum": 12,
+            "packageName": "爱听4G定向流量可选包",
+            "percentage": "0",
+            "prodOfferInstanceId": "2-25J7YA8P",
+            "isSharedPackage": "1",
+            "used": "0KB",
+            "ofrLevel": "7100100850002200000",
+            "productOffCode": "2-1RRYD2OY",
+            "company": 3,
+            "name": "爱听4G包内专用国内上网含6GB",
+            "validEndTime": "2022年02月28日",
+            "validBeginTime": "2022年02月01日",
+            "surplus": "6.00GB"
+        },
+        {
+            "total": "1.00GB",
+            "judgeNum": 10,
+            "packageName": "首月优惠（赠送1GB国内流量）",
+            "percentage": "4",
+            "prodOfferInstanceId": "2-22W24KM4",
+            "isSharedPackage": "1",
+            "used": "36.81MB",
+            "ofrLevel": "7100000630001000000",
+            "productOffCode": "2-1VPW2DKI",
+            "company": 3,
+            "name": "国内上网含1GB（多月共享）",
+            "validEndTime": "2051年02月28日",
+            "validBeginTime": "2017年10月01日",
+            "surplus": "987.19MB"
+        },
+        {
+            "total": "1.00GB",
+            "judgeNum": 10,
+            "packageName": "宽带网龄赠送0元闲时国内流量包",
+            "percentage": "3",
+            "prodOfferInstanceId": "2-231I41KF",
+            "isSharedPackage": "1",
+            "used": "25.84MB",
+            "ofrLevel": "7100000790001000000",
+            "productOffCode": "2-1QNMQ338",
+            "company": 3,
+            "name": "国内上网含1GB",
+            "validEndTime": "2022年02月28日",
+            "validBeginTime": "2022年02月01日",
+            "surplus": "998.16MB"
+        },
+        {
+            "total": "1.00GB",
+            "judgeNum": 10,
+            "packageName": "宽带网龄赠送0元闲时国内流量包",
+            "percentage": "0",
+            "prodOfferInstanceId": "2-231I41KF",
+            "isSharedPackage": "1",
+            "used": "401KB",
+            "ofrLevel": "7100100850000510000",
+            "productOffCode": "2-1QNMQ338",
+            "company": 3,
+            "name": "23点-7点国内上网含1GB",
+            "validEndTime": "2022年02月28日",
+            "validBeginTime": "2022年02月01日",
+            "surplus": "1023.60MB"
+        }
+    ],
+    "packageMap": [
+        {
+            "ratableUsed": "63.04MB",
+            "ratableTotal": "3.00GB",
+            "productOffName": "全国流量",
+            "packageType": "qg",
+            "packageName": "首月优惠（赠送1GB国内流量）",
+            "judgeNum": 10,
+            "details": [
+                {
+                    "$ref": "$.details[5]"
+                },
+                {
+                    "$ref": "$.details[4]"
+                },
+                {
+                    "$ref": "$.details[3]"
+                }
+            ],
+            "unitType": "3",
+            "percentage": "2",
+            "numDay": "376.12MB",
+            "type": 3,
+            "surplus": "2.93GB"
+        },
+        {
+            "ratableUsed": "848KB",
+            "ratableTotal": "51.00GB",
+            "productOffName": "定向流量",
+            "packageType": "dxll",
+            "packageName": "爱听4G定向流量可选包",
+            "judgeNum": 12,
+            "details": [
+                {
+                    "$ref": "$.details[2]"
+                },
+                {
+                    "$ref": "$.details[1]"
+                },
+                {
+                    "$ref": "$.details[0]"
+                }
+            ],
+            "unitType": "3",
+            "percentage": "0",
+            "numDay": "6.37GB",
+            "type": 3,
+            "surplus": "50.99GB"
+        }
+    ]
+}
