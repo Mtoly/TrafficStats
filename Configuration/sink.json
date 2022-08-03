@@ -1,0 +1,21 @@
+{
+    /**
+     * 定义您的主题对应的背景图片，可使用的名称如下:
+     * amber blue blue_light brown cyan
+     * green green_light grey blue_grey
+     * indigo lime orange orange_deep
+     * pink purple purple_deep red teal
+     * yellow black black_dark white
+     */
+    "blue_light": [
+        /**
+         * 这里是一个字符串组，当大于1个时每次进入主页随机显示
+         * 可填写网络图片链接，或手机里的图片路径（需要读写手机储存权限）
+         */
+        "/storage/emulated/0/Download/xxx.jpg",
+        "http://xxx.xxx.com/xxxx.jpg"
+    ],
+    "amber": [
+        // 如果填写有误、资源不存在或为空，此项参数将无意义
+    ]
+}
